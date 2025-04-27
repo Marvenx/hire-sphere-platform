@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				hiresphere: {
+					primary: '#7E69AB',
+					secondary: '#9b87f5',
+					light: '#E5DEFF',
+					dark: '#1A1F2C',
+					gray: '#8E9196',
+					background: '#F1F0FB'
 				}
 			},
 			borderRadius: {
